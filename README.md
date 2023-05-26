@@ -1,4 +1,4 @@
-# SwaggerModelLinkTableGenerator
+# Swagger Model Linked Table Generator
 This is a Java library that converts Swagger(V2) models to linked tables. It can convert any swagger model to a liked table even if the model is generic.
 
 ## Getting Started
