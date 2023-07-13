@@ -109,22 +109,22 @@ and in the end you can simply change it to this table in UI:
 |:--------------|:--------------------------------|:------------|
 | ParameterName | ParameterType                   | IsReference |
 | Id            | Long                            | FALSE       |
-| category      | Category                        | FALSE       |
-| name          | String                          | TRUE        |
+| category      | Category                        | TRUE        |
+| name          | String                          | FALSE       |
 | photoUrls     | List<String>                    | FALSE       |
-| tags          | List<Tag>                       | FALSE       |
-| status        | Enum:[available, pending, sold] | TRUE        |
+| tags          | List<Tag>                       | TRUE        |
+| status        | Enum:[available, pending, sold] | FALSE       |
 
 
 |               | Category                        |             |
 |:--------------|:--------------------------------|:------------|
 | ParameterName | ParameterType                   | IsReference |
 | Id            | Long                            | FALSE       |
-| name          | String                          | TRUE        |
+| name          | String                          | FALSE       |
 
 
 |               | Tag                             |             |
 |:--------------|:--------------------------------|:------------|
 | ParameterName | ParameterType                   | IsReference |
 | Id            | Long                            | FALSE       |
-| name          | String                          | TRUE        |
+| name          | String                          | FALSE       |
